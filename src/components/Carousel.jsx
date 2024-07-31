@@ -19,7 +19,7 @@ function Carousel({ images }) {
           key={currentIndex}
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
-          className="absolute w-full h-full object-cover"
+          className="absolute w-full h-full object-contain"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}

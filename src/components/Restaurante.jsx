@@ -50,15 +50,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Carousel from '../components/Carousel';
 
-import novedad1 from '../assets/sugerencias.jpg';
-import novedad2 from '../assets/postres.jpg';
-import novedad3 from '../assets/ensalada.jpg';
+import restaurante1 from '../assets/sugerencias.jpg';
+import restaurante2 from '../assets/postres.jpg';
+import restaurante3 from '../assets/ensalada.jpg';
 
 function Restaurante() {
   const images = [
-    novedad1,
-    novedad2,
-    novedad3
+    restaurante1,
+    restaurante2,
+    restaurante3
   ];
 
   return (

@@ -2,11 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import PhotoSection from '../components/PhotoSection';
 
+import delivery1 from '../assets/carne.jpg';
+import delivery2 from '../assets/empanadas.jpg';
+import delivery3 from '../assets/sanguche.jpg';
+
 function Delivery() {
   const images = [
-    'https://example.com/delivery1.jpg',
-    'https://example.com/delivery2.jpg',
-    'https://example.com/delivery3.jpg',
+    delivery1,
+    delivery2,
+    delivery3
   ];
 
   return (
